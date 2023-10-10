@@ -11,7 +11,7 @@ body{
 
 .container-1{
     width: 100%;
-    background-color: #FF900E ;
+    background-color: #ebdac7 ;
     height: 135vh;
 }
 
@@ -28,6 +28,7 @@ body{
     padding: 5px;
     gap: 30px;
     list-style: none;
+    font-weight: 600;
 }
 
 
@@ -68,7 +69,7 @@ body{
 
 @media only screen and (max-width:992px) {
     .nav-container{
-        width: 95%;
+        width: 100%;
         
     }
 }
@@ -78,6 +79,7 @@ body{
 @media only screen and (max-width:768px) {
     .nav-container{
         flex-direction: column;
+        width: 100%;
         
         
     }
@@ -88,8 +90,8 @@ body{
 
     }
 
-    .nav-container> .manue-container> .manue > .manue-list{
-        display: inline-block;
-        text-align: center;
+    .manue-container > .manue > ul{
+        background-color: blue;
+        justify-content: center;
     }
 }
