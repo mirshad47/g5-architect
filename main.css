@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-1{
+    width: 100%;
+    background-color: #FF900E ;
+    height: 135vh;
+}
+
+.nav-container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* margin-top: 20px; */
+}
+
+.manue-container > .manue > ul{
+    display: flex;
+    padding: 5px;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.heading-container{
+    text-align: center;
+}
+
+.heading-container > h1{
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.heading-container> p{
+    margin-bottom: 25px;
+}
+
+.heading-container> button{
+    width: 160px;
+    padding: 15px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    
+}
+
+.heading-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.heading-img > img{
+    width: 75%;
+    
+}
+
+/*-------------------------------- container-1 -----responcive down below----------------------- */
+
+
+@media only screen and (max-width:992px) {
+    .nav-container{
+        width: 95%;
+        
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .nav-container{
+        flex-direction: column;
+        
+        
+    }
+
+    .nav-container> .title{
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+
+    .nav-container> .manue-container> .manue > .manue-list{
+        display: inline-block;
+        text-align: center;
+    }
+}
