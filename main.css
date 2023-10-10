@@ -96,7 +96,7 @@ body{
     }
 
     .manue-container > .manue > ul{
-        background-color: blue;
+        /* background-color: blue; */
         justify-content: center;
     }
 }
@@ -119,4 +119,9 @@ body{
 
 .left-img{
     width: 48%;
+}
+
+.container-2 > .product-summary{
+    margin-left: 20px;
+    /* border: 2px solid red; */
 }
