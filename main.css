@@ -169,6 +169,14 @@ body{
     margin-bottom: 10px;
 }
 
+.product-summary-style{
+    color: #727272;
+}
+
+.product-summary-style-2{
+    color: #FF900E;
+}
+
 
 /*------------------------ container 2 media QU---------------------- */
 
@@ -225,4 +233,21 @@ body{
         width: 310px;
         margin: 10px;
     }
+}
+
+
+/*------------------- container 3 start-------------- */
+
+.container-3{
+    border: 2px solid red;
+}
+
+
+.left-side-content{
+    border: 2px solid red;
+}
+
+.container-3> .left-side-content{
+    width: 50%;
+    margin-left: 50px;
 }
